@@ -1,0 +1,28 @@
+sublime settings:
+
+```
+{
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "draw_white_space": "selection",
+    "font_face": "Hack",
+    "font_size": 10,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+    ],
+    "line_padding_bottom": 4,
+    "line_padding_top": 1,
+    "theme": "Default.sublime-theme",
+    "translate_tabs_to_spaces": true
+}
+```
+
+plugins:
+
+
+emmet
+ColorPicker css调色盘
+git
+SideBarEnhancements
+jdFormat
+FileDiffs 比较文件差异

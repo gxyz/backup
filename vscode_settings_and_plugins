@@ -1,0 +1,22 @@
+settings:
+
+```
+{
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "boundary",
+    "workbench.colorTheme": "Visual Studio Light",
+    "typescript.check.npmIsInstalled": false,
+    "window.zoomLevel": 0,
+    "python.linting.enabledWithoutWorkspace": false
+}
+```
+
+plugins:
+
+c/c++    
+Python
+Vim
