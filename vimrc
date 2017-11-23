@@ -1,5 +1,4 @@
 
-colorscheme desert
 set number  "show linenumber
 filetype on  "check file type
 set background=dark  "背景使用黑色
@@ -8,8 +7,12 @@ syntax on  "开启语法高亮
 set autoindent  "自动缩进,vim使用自动对起，也就是把当前行的对起格式应用到下一行
 set smartindent "依据上面的对起格式，智能的选择对起方式
 
+set textwidth=79  " lines longer than 79 columns will be broken"
+
 set tabstop=4   "设置tab键为4个空格
 set shiftwidth=4  "设置当行之间交错时使用4个空格
+set softtabstop=4  " insert/delete 4 spaces when hitting a TAB/BACKSPACE"
+set shiftround     " round indent to multiple of 'shiftwidth'"
 set expandtab
 set smarttab
 
@@ -23,12 +26,14 @@ set incsearch "搜索设置
 call plug#begin('~/.vim/plugged')
 
 Plug 'fatih/vim-go'
+Plug 'SirVer/ultisnips'
 Plug 'majutsushi/tagbar'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'rust-lang/rust.vim'
+Plug 'fatih/molokai'
 
 " vim-Plug end
 call plug#end()
@@ -46,3 +51,24 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 let g:rustfmt_autosave = 1
+
+"vim-go
+set autowrite
+"next error
+map <C-n> :cnext<CR>
+"previous erros
+map <C-m> :cprevious<CR>
+"\a to close
+nnoremap <leader>a :cclose<CR>
+" ctrl+o+x  complete
+let g:go_list_type = "quickfix"
+let g:go_fmt_command = "goimports"
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+
+let g:rehash256 = 1
+let g:molokai_original = 1
+colorscheme molokai
+
