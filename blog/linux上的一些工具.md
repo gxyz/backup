@@ -1,4 +1,4 @@
----
+author: me
 title: linux上的一些工具
 date: 2016-12-03 18:46:16
 tags:

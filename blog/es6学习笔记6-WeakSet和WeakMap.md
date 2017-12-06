@@ -1,4 +1,4 @@
----
+author: me
 title: es6学习笔记(6)-WeakSet和WeakMap
 date: 2017-05-04 10:06:36
 tags:

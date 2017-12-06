@@ -1,4 +1,4 @@
----
+author: me
 title: go语言学习-安装和配置
 date: 2017-07-16 21:01:49
 tags:

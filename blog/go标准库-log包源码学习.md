@@ -1,4 +1,4 @@
----
+author: me
 title: go标准库-log包源码学习
 date: 2017-07-31 18:47:25
 tags:

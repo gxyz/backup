@@ -1,7 +1,8 @@
----
+author: me
 title: 链表(python版)
 date: 2016-12-21 23:26:31
-tags: python
+tags: 
+    - python
 ---
 
 

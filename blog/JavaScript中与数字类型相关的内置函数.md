@@ -1,7 +1,8 @@
----
+author: me
 title: JavaScript中与数字类型相关的内置函数
 date: 2017-03-27 17:50:27
-tags: JavaScript
+tags: 
+    - JavaScript
 ---
 
 ## parseInt()

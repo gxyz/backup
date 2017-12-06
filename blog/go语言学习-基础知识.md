@@ -1,4 +1,4 @@
----
+author: me
 title: go语言学习-基础知识
 date: 2017-07-18 19:51:59
 tags:

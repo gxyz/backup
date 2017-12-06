@@ -1,4 +1,4 @@
----
+author: me
 title: go语言学习-常用命令
 date: 2017-07-17 20:27:46
 tags:

@@ -1,4 +1,4 @@
----
+author: me
 title: requests库学习之基本方法
 date: 2017-05-06 23:02:58
 tags:
@@ -91,7 +91,7 @@ requests.request(method, url, **kwargs)
 
 - method: 请求方式，对应 get/put/post/head/patch/options/delete 等等
 - url:  获取页面的url连接
-- **kwargs: 控制访问参数，有 13个，都是可选项
+- \*\*kwargs: 控制访问参数，有 13个，都是可选项
 
 13个控制访问参数解析:
 
@@ -117,7 +117,7 @@ requests.get(url, params=None, **kwargs)
 
 - url 获取页面的url连接
 - params: 字典或者字节序列，作为url参数(?k=v&k=v)增加到 url 中
-- **kwargs 就是其他12个参数
+- \*\*kwargs 就是其他12个参数
 
 ### requests.head
 
@@ -126,7 +126,7 @@ requests.head(url, **kwargs)
 ```
 
 - url 获取页面的url连接
-- **kwargs 就是其他13个访问控制参数
+- \*\*kwargs 就是其他13个访问控制参数
 
 ### requests.post
 
@@ -137,7 +137,7 @@ requests.post(url, data=None, json=None, **kwargs)
 - url 获取页面的url连接
 - data: 字典、字节序或文件对象，作为向服务器提供或者提交资源时使用,作为Reqeust内容(放在请求的主体中)
 - json: JSON格式的数据，作为 Request内容(放置请求的主体中)
--  **kwargs 就是其他11个访问控制参数
+-  \*\*kwargs 就是其他11个访问控制参数
 
 
 ### requests.put
@@ -148,7 +148,7 @@ requests.put(url, data=None, **kwargs)
 
 - url 获取页面的url连接
 - data: 字典、字节序或文件对象，作为向服务器提供或者提交资源时使用,作为Reqeust内容(放在请求的主体中)
-- **kwargs 就是其他12个参数
+- \*\*kwargs 就是其他12个参数
 
 ### requests.patch
 
@@ -158,7 +158,7 @@ requests.patch(url, data=None, **kwargs)
 
 - url 获取页面的url连接
 - data: 字典、字节序或文件对象，作为向服务器提供或者提交资源时使用,作为Reqeust内容(放在请求的主体中)
-- **kwargs 就是其他12个参数
+- \*\*kwargs 就是其他12个参数
 
 
 ### requests.head
@@ -168,7 +168,7 @@ requests.head(url, **kwargs)
 ```
 
 - url 删除页面的url资源
-- **kwargs 就是其他13个访问控制参数
+- \*\*kwargs 就是其他13个访问控制参数
 
 
 上面这些方法是requests中的核心方法，使用方法基本一致，很简单，这里就先介绍学习这么多，之后我们会做一些练习，并且深入的了解一下requests库中的 Request 对象和 Response 对象

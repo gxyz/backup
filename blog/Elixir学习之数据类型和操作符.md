@@ -1,7 +1,8 @@
----
+author: me
 title: Elixir学习之数据类型和操作符
 date: 2016-12-11 21:52:22
-tags: Elixir
+tags: 
+    - Elixir
 ---
 
 

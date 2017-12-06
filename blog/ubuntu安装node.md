@@ -1,7 +1,8 @@
----
+author: me
 title: ubuntu安装node
 date: 2016-12-03 18:33:58
-tags: node
+tags: 
+    - node
 ---
 
 要想学习node.js，首先当然是要安装好开发环境，我使用的是ubuntu系统。

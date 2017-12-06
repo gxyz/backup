@@ -1,4 +1,4 @@
----
+author: me
 title: go语言学习-接口
 date: 2017-07-22 09:35:47
 tags:

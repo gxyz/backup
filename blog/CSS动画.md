@@ -1,7 +1,8 @@
----
+author: me
 title: CSS动画
 date: 2017-03-24 20:51:23
-tags: css
+tags: 
+    - css
 ---
 
 CSS中的 animation 属性可用于使其他CSS属性有动态的效果，如颜色，背景颜色等等。每个动画需要使用 `@keyframes` 定义，然后使用 animation 属性调用它。

@@ -1,4 +1,4 @@
----
+author: me
 title: NumPy学习-常用操作
 date: 2017-09-03 15:40:13
 tags:

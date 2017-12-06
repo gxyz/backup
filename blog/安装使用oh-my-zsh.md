@@ -1,4 +1,4 @@
----
+author: me
 title: 安装使用oh-my-zsh
 date: 2016-12-03 18:21:14
 tags:

@@ -1,4 +1,4 @@
----
+author: me
 title: es6学习笔记(2)-let和const
 date: 2017-04-29 10:10:08
 tags:

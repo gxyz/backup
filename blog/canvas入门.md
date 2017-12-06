@@ -1,7 +1,8 @@
----
+author: me
 title: canvas入门
 date: 2016-12-29 20:27:42
-tags: canvas
+tags: 
+    - canvas
 ---
 
 # canvas学习

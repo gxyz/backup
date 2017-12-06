@@ -1,4 +1,4 @@
----
+author: me
 title: 自制markdown编辑器.md
 date: 2017-05-05 16:07:25
 tags:

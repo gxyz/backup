@@ -1,4 +1,4 @@
----
+author: me
 title: go语言学习-数组-切片-map
 date: 2017-07-19 20:42:51
 tags:

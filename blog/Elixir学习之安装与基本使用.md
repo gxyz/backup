@@ -1,7 +1,8 @@
----
+author: me
 title: Elixir学习之安装与基本使用
 date: 2016-12-11 21:04:50
-tags: Elixir
+tags: 
+    - Elixir
 ---
 
 Elixir是一种基于Erlang VM的一门函数式编程语言，有这Erlang的并发性，稳定性等特点，又有这类似Ruby的语法。值得学一学

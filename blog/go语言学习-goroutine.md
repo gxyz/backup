@@ -1,4 +1,4 @@
----
+author: me
 title: go语言学习-goroutine
 date: 2017-08-19 10:23:47
 tags:

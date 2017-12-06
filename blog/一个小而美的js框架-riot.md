@@ -1,4 +1,4 @@
----
+author: me
 title: 一个小而美的js框架-riot
 date: 2017-03-29 20:02:16
 tags: 

@@ -1,7 +1,8 @@
----
+author: me
 title: css过渡
 date: 2017-03-24 15:38:15
-tags: css
+tags: 
+    - css
 ---
 
 # CSS 过渡 - transition

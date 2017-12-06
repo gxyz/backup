@@ -1,4 +1,4 @@
----
+author: me
 title: 【翻译】使用Vue.js和Axios从第三方API获取数据-SitePoint
 date: 2017-04-30 09:56:15
 tags:

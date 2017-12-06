@@ -1,6 +1,7 @@
----
+author: me
 title: "Linux学习 用户和用户组管理"
-date: 2017-9-23 16:16:57
+date: 2017-09-23 16:16:57
+author: me
 tags:
     - Linux
 ---

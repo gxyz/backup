@@ -1,4 +1,4 @@
----
+author: me
 title: NumPy学习-数据存取
 date: 2017-09-05 21:04:59
 tags:

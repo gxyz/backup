@@ -1,4 +1,4 @@
----
+author: me
 title: NumPy学习-初见
 date: 2017-07-01 00:26:36
 tags:

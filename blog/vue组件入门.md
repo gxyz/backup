@@ -1,7 +1,8 @@
----
+author: me
 title: vue组件入门
 date: 2017-02-06 15:32:44
-tags: vue
+tags: 
+    - vue
 ---
 
 ## Vue组件(Component)概述

@@ -1,4 +1,4 @@
----
+author: me
 title: 【翻译】使用React和D3–ReactJSNews
 date: 2017-04-27 16:12:58
 tags:
