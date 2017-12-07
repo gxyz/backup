@@ -89,7 +89,7 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=/home/gdb/code/go_work:/home/gdb/golang/example.v2
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/home/gdb/code/go_work/bin
 
 export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 
@@ -98,3 +98,8 @@ export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_144
 export JRE_HOME=${JAVA_HOME}/jre  
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
 export PATH=${JAVA_HOME}/bin:$PATH  
+
+# virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
