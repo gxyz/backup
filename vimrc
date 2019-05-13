@@ -18,6 +18,7 @@ set smarttab
 
 set showmatch  "设置匹配模式，类似当输入一个左括号时会匹配相应的那个右括号
 
+
 set ruler  "在编辑过程中，在右下角显示光标位置的状态行
 
 set incsearch "搜索设置
