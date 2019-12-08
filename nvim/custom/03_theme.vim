@@ -1,0 +1,2 @@
+" ---- theme ----
+colorscheme dracula

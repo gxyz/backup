@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/gdb/.config/kitty'
+let g:netrw_dirhist_2='/Users/gdb/work_env/notes'
+let g:netrw_dirhist_1='/Users/gdb/opensource/backup'
